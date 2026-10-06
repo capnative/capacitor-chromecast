@@ -8,6 +8,16 @@ A Capacitor plugin that opens Google Cast / Chromecast native picker from JavaSc
 | -------------- | ----------------------- | ---------- |
 | v8.\*.\*       | v8.\*.\*                | ✅         |
 
+## Supported platforms
+
+| Platform | Support | Minimum version            |
+| -------- | ------- | -------------------------- |
+| iOS      | ✅      | iOS 15                     |
+| Android  | ✅      | API level 24 (Android 7.0) |
+| Web      | ❌      | —                          |
+
+Chromecast functionality is provided by the native iOS and Android implementations. Calls on the web platform reject with an `UNSUPPORTED_PLATFORM` error.
+
 ## Install
 
 ```bash
