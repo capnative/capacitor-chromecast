@@ -1,4 +1,4 @@
-# capacitor-chromecast
+# Capacitor Chromecast
 
 A Capacitor plugin that opens Google Cast / Chromecast native picker from JavaScript or TypeScript.
 
