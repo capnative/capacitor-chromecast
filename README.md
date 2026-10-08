@@ -110,14 +110,14 @@ If you use the full Bluetooth-enabled Google Cast SDK in your app setup, Google 
 
 <docgen-index>
 
-- [`initialize(...)`](#initialize)
-- [`show()`](#show)
-- [`loadMedia(...)`](#loadmedia)
-- [`isConnected()`](#isconnected)
-- [`addListener('sessionStateChanged', ...)`](#addlistenersessionstatechanged-)
-- [`removeAllListeners()`](#removealllisteners)
-- [Interfaces](#interfaces)
-- [Type Aliases](#type-aliases)
+* [`initialize(...)`](#initialize)
+* [`show()`](#show)
+* [`loadMedia(...)`](#loadmedia)
+* [`isConnected()`](#isconnected)
+* [`addListener('sessionStateChanged', ...)`](#addlistenersessionstatechanged-)
+* [`removeAllListeners()`](#removealllisteners)
+* [Interfaces](#interfaces)
+* [Type Aliases](#type-aliases)
 
 </docgen-index>
 
@@ -139,7 +139,8 @@ Call this once during application startup, or configure the same value in
 | ------------- | --------------------------------------------------------------- |
 | **`options`** | <code><a href="#initializeoptions">InitializeOptions</a></code> |
 
----
+--------------------
+
 
 ### show()
 
@@ -149,7 +150,8 @@ show() => Promise<void>
 
 Opens the official native Google Cast device picker.
 
----
+--------------------
+
 
 ### loadMedia(...)
 
@@ -163,7 +165,8 @@ Loads media from a URL on the currently connected Chromecast device.
 | ------------- | ------------------------------------------------------------- |
 | **`options`** | <code><a href="#loadmediaoptions">LoadMediaOptions</a></code> |
 
----
+--------------------
+
 
 ### isConnected()
 
@@ -175,7 +178,8 @@ Returns whether there is an active Chromecast device connection.
 
 **Returns:** <code>Promise&lt;boolean&gt;</code>
 
----
+--------------------
+
 
 ### addListener('sessionStateChanged', ...)
 
@@ -190,7 +194,8 @@ addListener(eventName: 'sessionStateChanged', listenerFunc: (event: SessionState
 
 **Returns:** <code>Promise&lt;<a href="#pluginlistenerhandle">PluginListenerHandle</a>&gt;</code>
 
----
+--------------------
+
 
 ### removeAllListeners()
 
@@ -198,9 +203,11 @@ addListener(eventName: 'sessionStateChanged', listenerFunc: (event: SessionState
 removeAllListeners() => Promise<void>
 ```
 
----
+--------------------
+
 
 ### Interfaces
+
 
 #### InitializeOptions
 
@@ -208,11 +215,13 @@ removeAllListeners() => Promise<void>
 | --------------------------- | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **`receiverApplicationId`** | <code>string</code> | Google Cast receiver application ID from the Google Cast Developer Console. This must be an 8-character hexadecimal application ID such as `CC1AD845`. |
 
+
 #### LoadMediaOptions
 
 | Prop      | Type                | Description                                                           |
 | --------- | ------------------- | --------------------------------------------------------------------- |
 | **`url`** | <code>string</code> | Absolute URL of the media to load on the connected Chromecast device. |
+
 
 #### PluginListenerHandle
 
@@ -220,13 +229,16 @@ removeAllListeners() => Promise<void>
 | ------------ | ----------------------------------------- |
 | **`remove`** | <code>() =&gt; Promise&lt;void&gt;</code> |
 
+
 #### SessionStateChangedEvent
 
 | Prop        | Type                                                  |
 | ----------- | ----------------------------------------------------- |
 | **`state`** | <code><a href="#sessionstate">SessionState</a></code> |
 
+
 ### Type Aliases
+
 
 #### SessionState
 
