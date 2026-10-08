@@ -29,13 +29,13 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marioshtika/capacitor-chromecast.git"
+    "url": "git+https://github.com/capnative/capacitor-chromecast.git"
   },
   "publishConfig": {
     "access": "public"
   },
   "bugs": {
-    "url": "https://github.com/marioshtika/capacitor-chromecast/issues"
+    "url": "https://github.com/capnative/capacitor-chromecast/issues"
   },
   "keywords": [
     "capacitor",
