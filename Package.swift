@@ -2,11 +2,11 @@
 import PackageDescription
 
 let package = Package(
-    name: "CapacitorChromecast",
+    name: "CapnativeCapacitorChromecast",
     platforms: [.iOS(.v15)],
     products: [
         .library(
-            name: "CapacitorChromecast",
+            name: "CapnativeCapacitorChromecast",
             targets: ["ChromecastPlugin"])
     ],
     dependencies: [
