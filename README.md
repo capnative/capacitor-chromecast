@@ -21,7 +21,7 @@ Chromecast functionality is provided by the native iOS and Android implementatio
 ## Install
 
 ```bash
-npm install capacitor-chromecast
+npm install @capnative/capacitor-chromecast
 npx cap sync
 ```
 
@@ -32,7 +32,7 @@ You must provide your Google Cast receiver application ID either in JavaScript o
 ### JavaScript initialization
 
 ```typescript
-import { Chromecast } from 'capacitor-chromecast';
+import { Chromecast } from '@capnative/capacitor-chromecast';
 
 await Chromecast.initialize({
   receiverApplicationId: 'YOUR_RECEIVER_APPLICATION_ID',
@@ -72,7 +72,7 @@ The receiver application ID must be an 8-character hexadecimal Google Cast appli
 ## Basic usage
 
 ```typescript
-import { Chromecast } from 'capacitor-chromecast';
+import { Chromecast } from '@capnative/capacitor-chromecast';
 
 await Chromecast.initialize({
   receiverApplicationId: 'YOUR_RECEIVER_APPLICATION_ID',
