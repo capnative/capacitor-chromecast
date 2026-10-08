@@ -1,5 +1,5 @@
 {
-  "name": "capacitor-chromecast",
+  "name": "@capnative/capacitor-chromecast",
   "version": "8.2.0",
   "description": "Open the native Google Cast device picker from Capacitor",
   "main": "dist/plugin.cjs.js",
